@@ -13,7 +13,7 @@ import java.sql.Statement;
  */
 public class JdbcUtilsTest {
     public static void main(String[] args)throws Exception {
-        Connection conn = JdbcUtils.getconntion();
+        Connection conn = JdbcUtils.getConnection();
 
         //3. 定义sql语句
         String sql = "update account set money = 1000 where id = 2";

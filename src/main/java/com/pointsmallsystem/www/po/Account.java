@@ -8,7 +8,7 @@ public class Account {
     private String name;
     private int money;
 
-    public Account(int id,String name,int money) {
+    public Account(int id, String name, int money) {
         this.id = id;
         this.name = name;
         this.money = money;

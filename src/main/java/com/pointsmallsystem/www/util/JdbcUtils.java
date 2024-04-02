@@ -43,7 +43,7 @@ public class JdbcUtils {
      *	@return		 : Connection
      *  @notice      : None
      */
-    public static Connection getconntion()throws Exception {
+    public static Connection getConnection()throws Exception {
         String url = properties.getProperty("url");
         String username = properties.getProperty("username");
         String password = properties.getProperty("password");
@@ -85,7 +85,7 @@ public class JdbcUtils {
         PreparedStatement pstmt = null;
         int count = 0;
         try {
-            conn = JdbcUtils.getconntion();
+            conn = JdbcUtils.getConnection();
             pstmt = conn.prepareStatement(sql);
 
             for(int i = 0;i < params.length;i++){
@@ -117,7 +117,7 @@ public class JdbcUtils {
         PreparedStatement pstmt = null;
 
         try {
-            conn = JdbcUtils.getconntion();
+            conn = JdbcUtils.getConnection();
             pstmt = conn.prepareStatement(sql);
             if (params != null) {
                 for (int i = 0; i < params.length; i++) {

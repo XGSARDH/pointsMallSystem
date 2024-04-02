@@ -1,11 +1,12 @@
 package main.java.com.pointsmallsystem.www.po;
 
-public class Merchant {
+public class Address {
     private Integer id;
     private Integer userId;
-    private String name;
+    private String recipient;
+    private String phone;
     private String address;
-    private String business;
+    private Boolean isDefault;
 
     public Integer getId() {
         return id;
@@ -23,12 +24,20 @@ public class Merchant {
         this.userId = userId;
     }
 
-    public String getName() {
-        return name;
+    public String getRecipient() {
+        return recipient;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRecipient(String recipient) {
+        this.recipient = recipient;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getAddress() {
@@ -39,22 +48,23 @@ public class Merchant {
         this.address = address;
     }
 
-    public String getBusiness() {
-        return business;
+    public Boolean getDefault() {
+        return isDefault;
     }
 
-    public void setBusiness(String business) {
-        this.business = business;
+    public void setDefault(Boolean aDefault) {
+        isDefault = aDefault;
     }
 
     @Override
     public String toString() {
-        return "Merchant{" +
+        return "Address{" +
                 "id=" + id +
                 ", userId=" + userId +
-                ", name='" + name + '\'' +
+                ", recipient='" + recipient + '\'' +
+                ", phone='" + phone + '\'' +
                 ", address='" + address + '\'' +
-                ", business='" + business + '\'' +
+                ", isDefault=" + isDefault +
                 '}';
     }
 }
