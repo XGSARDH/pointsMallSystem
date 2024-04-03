@@ -8,32 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89b5126c-13c8-42ca-9723-a8d7a0185eaf" name="变更" comment="完成数据服务层,尚未完成测试">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/AddressDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/CartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/MerchantDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/AddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/AddressDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/MerchantDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/MerchantDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Merchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/util/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pointsmallsystem/www/util/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/JdbcUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/JdbcUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +170,7 @@
       <workItem from="1712048690919" duration="7093000" />
       <workItem from="1712062877052" duration="8224000" />
       <workItem from="1712072720021" duration="11879000" />
+      <workItem from="1712085036979" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1712066500197</created>
@@ -203,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712066500197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成数据服务层,尚未完成测试">
+      <created>1712085111831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712085111831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
